@@ -16,10 +16,11 @@ class Login extends StatelessWidget {
         width: 220,
         decoration: BoxDecoration(
           color: Colors.amber,
+          shape: BoxShape.circle,
           // borderRadius: BorderRadius.circular(50),
-          borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(50), bottomRight: Radius.circular(50)),
-          border: Border.all(color: Colors.green, width: 10),
+          // borderRadius: BorderRadius.only(
+          //     topLeft: Radius.circular(50), bottomRight: Radius.circular(50)),
+          // border: Border.all(color: Colors.green, width: 10),
         ),
       ),
     );
