@@ -11,10 +11,15 @@ class Login extends StatelessWidget {
         centerTitle: true,
       ),
       body: Container(
+        margin: EdgeInsets.only(top: 50, left: 20),
         height: 300,
         width: 220,
-        child: Center(child: Text("this conteainter")),
-        color: Colors.amber,
+        decoration: BoxDecoration(
+          color: Colors.amber,
+          // borderRadius: BorderRadius.circular(50),
+          borderRadius: BorderRadius.only(
+              topLeft: Radius.circular(50), bottomRight: Radius.circular(50)),
+        ),
       ),
     );
   }
