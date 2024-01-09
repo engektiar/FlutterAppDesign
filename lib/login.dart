@@ -19,6 +19,7 @@ class Login extends StatelessWidget {
           // borderRadius: BorderRadius.circular(50),
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(50), bottomRight: Radius.circular(50)),
+          border: Border.all(color: Colors.green, width: 10),
         ),
       ),
     );
